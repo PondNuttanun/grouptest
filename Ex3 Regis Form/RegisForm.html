@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<body>
+    <h1>6340011005 Nuttanun Lekkhum</h1>
+    <ul>
+      <li><a href="../Index.html">Home</a></li>
+      <li><a href="../WebProgramming.html">Web Programming</a></li>
+    </ul>
+
+    <H2> <center> ลงทะเบียนศิษย์เก่า IT & IS </center> </H2>
+    <form action="http://www.example.com" method="post">
+        
+        <label for="name">ชื่อ-สกุล </label>
+        <input type="text" name="name" size="25" maxlength="40" />
+
+        <p>
+            <label for="Student_ID">รหัสนักศึกษา </label>
+        <input type="number" name="Student_ID" size="25" maxlength="10" />
+        </p>
+
+        <p>
+            <label for="gender"> เพศ </label>
+            <input type="radio" name="gender" value="ชาย" checked="checked">ชาย
+            <input type="radio" name="gender" value="หญิง">หญิง
+            <input type="radio" name="gender" value="อื่นๆ">อื่นๆ
+        </p>
+
+        <p>
+            <label for="img"> Upload รูปตัวเอง </label>
+            <input type="file" name="img" />
+        </p>
+
+        <p>
+            <label for="addrees"> ที่อยู่ </label>
+            <textarea name="addrees" cols="26" rows="4">
+            </textarea>
+        </p>
+
+        <p>
+            <label for="email">E-mail</label>
+            <input type="email" name="email" size="25" maxlength="40" />
+        </p>
+
+        <p>
+            <label for="tel">เบอร์ติดต่อ</label>
+            <input type="tel" name="tel" size="25" maxlength="10" />
+        </p>
+
+        <p>
+            <label for="year">ปีที่เข้ารับการศีกษา</label>
+            <select name="year">
+                <option value="y">  ปีพ.ศ.  </option>
+                <option value="2549">2549</option>
+                <option value="2550">2550</option>
+                <option value="2551">2551</option>
+                <option value="2552">2552</option>
+                <option value="2553">2553</option>
+                <option value="2554">2554</option>
+                <option value="2555">2555</option>
+                <option value="2556">2556</option>
+                <option value="2557">2557</option>
+                <option value="2558">2558</option>
+                <option value="2559">2559</option>
+                <option value="2560">2560</option>
+                <option value="2561">2561</option>
+                <option value="2562">2562</option>
+                <option value="2563">2563</option>
+                <option value="2564">2564</option>
+                <option value="2565">2565</option>
+            </select>
+        </p>
+
+        <p>
+            <label for="sub">ชื่อหลักสูตร</label>
+            <input type="radio" name="sub" value="IT" checked="checked">IT
+            <input type="radio" name="sub" value="IS">IS
+        </p>
+
+        <p>
+        <label for="work">อาขีพปัจจุบัน</label>
+        <input type="text" name="work" size="25" maxlength="40" />
+        </p>
+
+        <p>
+            <label for="work">ประเภทงานที่ทำ</label>
+            <input type="checkbox" name="work1" value="web Developer" checked />Web Developer
+            <input type="checkbox" name="work2" value="SA"/>SA
+            <input type="checkbox" name="work3" value="Graphic Design"/>Graphic Design
+            <input type="checkbox" name="work4" value="Digital"/>Digital
+            <input type="checkbox" name="work5" value="maketing"/>maketing
+            <input type="checkbox" name="work6" value="Other"/>Other
+        </p>
+
+        <p>
+            <label for="add_work">สถานที่ทำงาน</label>
+            <textarea name="add_work" cols="26" rows="4">
+            </textarea>
+        </p>
+
+        <p>
+            <input type="submit" name="Subscribe" value="submit" />
+            <input type="reset" name="Reset" value="reset" />
+        </p>
+
+    </form>
+</body>
+</html>
