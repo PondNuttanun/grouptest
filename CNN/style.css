@@ -1,0 +1,48 @@
+.imge{
+    width: 20px;
+}
+.newitems{
+    border-bottom: 1px solid lightgrey;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: red !important;
+}
+a:visited{
+    color: black;
+}
+@media (min-width:1200px){
+    .fs1{
+        font-size: 40px;
+    }
+    .fs2{
+        font-size: 30px;
+    }
+    .fs3{
+        font-size: 26px;
+    }
+}
+@media (min-width:1200px) and (max-width:768px){
+    .fs1{
+        font-size: 28px;
+    }
+    .fs2{
+        font-size: 20px;
+    }
+    .fs3{
+        font-size: 20px;
+    }
+}
+@media (max-width:768px){
+    .fs1{
+        font-size: 32px;
+    }
+    .fs2{
+        font-size: 24px;
+    }
+    .fs3{
+        font-size: 18px;
+    }
+}

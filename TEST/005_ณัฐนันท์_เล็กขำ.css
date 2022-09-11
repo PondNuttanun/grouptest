@@ -1,0 +1,16 @@
+.nav-link {
+  color: darkgray;
+}
+a.nav-link:hover {
+  color: red;
+}
+p {
+  color: dimgray;
+}
+.stretched-link{
+    color: black;
+}
+a.stretched-link:hover {
+    color: red;
+  }
+  

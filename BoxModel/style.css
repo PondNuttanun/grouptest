@@ -1,0 +1,54 @@
+.course1,
+.course2,
+.course3{
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.course1{
+    background-color: pink;
+    float: left;
+}
+.course2{
+    position: relative;
+    background-color: lightgreen;
+    float: left;
+}
+.course3{
+    background-color: lightskyblue;
+    float: left;
+}
+.course4{
+    width: 300px;
+    /*background-color: lightsalmon;*/
+}
+
+.highlight{
+    background-color: coral;
+}
+li.menuitem{
+    display: inline;
+    background-color: peachpuff;
+    margin-right: 25px;
+}
+li a{
+    text-decoration: none;
+}
+.indent{
+    position: relative;
+    left: 20px;
+}
+.register{
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    width: 80px;
+    background-color: lightseagreen;
+    padding: 5px;
+    text-align: center;
+}
+ul.menu{
+    /*position: fixed;*/
+    left: 10px;
+}

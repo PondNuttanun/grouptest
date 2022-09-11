@@ -1,0 +1,88 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&family=Rampart+One&family=Rubik+Marker+Hatch&display=swap');
+
+h1{
+    font-family: 'Rubik Dirt';
+    text-align: center;
+}
+
+p{
+    font-family: 'Rubik Marker Hatch', cursive;
+    padding-left:9% ;
+    
+    
+}
+
+
+body{
+    background-color:whitesmoke;
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+    .non {
+        display:none;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .nondis {
+        display: none;
+    }
+}
+
+@media (max-width: 576px) {
+    .dis{
+        display: none;
+    }
+}
+
+@media (min-width: 200px) and (max-width: 576px) {
+    .phone {
+        display: none;
+    }
+}
+.slide{
+    width: 600px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    overflow: hidden;
+    /* border:10px solid; */
+}
+
+.slide figure img{
+    width: 20%;
+    height: 400px;
+    float: left;
+}
+
+.slide figure{
+    position: relative;
+    width: 500%;
+    margin: 0px;
+    left: 0px;
+    animation: Zia 10s infinite linear;
+}
+
+@keyframes Zia{
+    0%{left: 0%;}
+    15%{left: 0%;}
+    20%{left: -100%;}
+    35%{left: -100%;}
+    45%{left: -200%;}
+    50%{left: -200%;}
+    65%{left: -300%;}
+    75%{left: -300%;}
+    85%{left: -400%;}
+    100%{left: -400%;}
+}
+
+
+footer {
+    text-align: center;
+    margin-top: 10%;
+    padding: 3px;
+    background-color: rgb(42, 37, 35);
+    color: white;
+  }

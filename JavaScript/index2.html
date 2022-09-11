@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <script>
+        let count = 0;
+        function counter() {
+            count++;
+            document.querySelector("h1").innerHTML = count;
+            document.querySelector("h1").style.color = "red";
+        }
+        document.addEventListener("DOMContentLoaded", function(){
+            //document.querySelector("button").onclick = counter;
+            document.querySelector("#counterBtn").onclick = counter;
+            //document.querySelector(".redBtn").onclick = counter;
+        });
+    </script>
+</head>
+<body>
+    <h1>0</h1>
+    <button id="counterBtn" class="redBtn">Count</button>
+    <button id="cancelBtn" class="redBtn">Cancel</button>
+</body>
+</html>
