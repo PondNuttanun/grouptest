@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SoS Register</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <center>
+        <div class="container">
+            <div class="register mx-auto border border-secondary p-4 rounded">
+                <h1> สมัครสมาชิกสำหรับผู้ใช้งานใหม่ </h1>
+                <form action="http://" method="post">
+
+                    <div class="mb-3">
+                        <label for="Username" class="form-label">Username</label>
+                        <input type="text"  name="username" id="username" size="25" maxlength="40" placeholder="Please input your name">
+                      </div>
+            
+                      <div class="mb-3">
+                        <label for="Password" class="form-label">Password</label>
+                        <input type="text" name="password" id="password" size="25" maxlength="40" placeholder="Please input your password">
+                      </div>
+
+                    <div class="row g-3">
+                        <div class="col-2">
+                            <label for="name" class="col-form-label"> ชื่อ : </label>
+                        </div>
+                        <div class="col-4">
+                          <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                        </div>
+                        <div class="col-2">
+                            <label for="name" class="col-form-label"> นามสกุล : </label>
+                        </div>
+                        <div class="col-4">
+                          <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                        </div>
+                    </div>
+    
+            
+                    <p>
+                        <label for="gender"> เพศ : </label>
+                        <input type="radio" name="gender" value="ชาย" checked="checked">ชาย
+                        <input type="radio" name="gender" value="หญิง">หญิง
+                        <input type="radio" name="gender" value="อื่นๆ">อื่นๆ
+                    </p>
+            
+                    <p>
+                        <label for="email"> E-mail : </label>
+                        <input type="email" name="email" size="25" maxlength="40" />
+                    </p>
+            
+                    <p>
+                        <label for="tel"> เบอร์โทรศัพท์ : </label>
+                        <input type="tel" name="tel" size="25" maxlength="10" />
+                    </p>
+                    <p>
+                        <label for="Per_ID"> เลขบัตรประชาชน : </label>
+                        <input type="number" name="Per_ID" size="25" maxlength="40" />
+                    </p>
+                    
+                   
+                    <label for="Name_buil"> สถานที่ : </label>
+                        <select name="buil">
+                            <option value="B1"> ตึกที่ 1  </option>
+                            <option value="B2"> ตึกที่ 2 </option>
+                            <option value="B3"> ตึกที่ 3 </option>
+                            <option value="B4"> ตึกที่ 4 </option>
+                            <option value="B5"> ตึกที่ 5 </option>
+                            <option value="B6"> ตึกที่ 6 </option>
+                            <option value="B7"> ตึกที่ 7 </option>
+                            <option value="B8"> ตึกที่ 8 </option>
+                            <option value="B9"> ตึกที่ 9 </option>
+                            <option value="B10"> ตึกที่ 10 </option>
+                        </select>
+                    
+            
+                        
+                    <label for="Name_Layer"> ชั้นที่ : </label>
+                        <select name="Layer">
+                            <option value="l1"> ชั้นที่ 1  </option>
+                            <option value="l2"> ชั้นที่ 2 </option>
+                            <option value="l3"> ชั้นที่ 3 </option>
+                            <option value="l4"> ชั้นที่ 4 </option>
+                            <option value="l5"> ชั้นที่ 5 </option>
+                            <option value="l6"> ชั้นที่ 6 </option>
+                            <option value="l7"> ชั้นที่ 7 </option>
+                            <option value="l8"> ชั้นที่ 8 </option>
+                            <option value="l9"> ชั้นที่ 9 </option>
+                            <option value="l10"> ชั้นที่ 10 </option>
+                        </select>
+            
+                    <label for="Name_room"> หมายเลขห้อง : </label>
+                        <select name="room">
+                            <option value="r1"> 01  </option>
+                            <option value="r2"> 02 </option>
+                            <option value="r3"> 03 </option>
+                            <option value="r4"> 04 </option>
+                            <option value="r5"> 05 </option>
+                            <option value="r6"> 06 </option>
+                            <option value="r7"> 07 </option>
+                            <option value="r8"> 08 </option>
+                            <option value="r9"> 09 </option>
+                            <option value="r10"> 10 </option>
+                            <option value="r11"> 11 </option>
+                            <option value="r12"> 12 </option>
+                        </select>
+            
+                    <p>
+                        <input type="submit" class="btn btn-info" name="submit" value="ยืนยัน" />
+                        <input type="reset" class="btn btn-secondary" name="reset" value="ย้อนกลับ" />
+                    </p>
+                        
+                    
+                </form>
+            </div>
+        </div>
+        
+    </center>
+    
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+  </body>
+</html>
